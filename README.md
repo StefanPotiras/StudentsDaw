@@ -26,7 +26,8 @@ Page To Add a new student
 
 
 Page to see Students Details like grades 
-![image](https://user-images.githubusercontent.com/96986369/212467337-0dde1b90-ea00-4b4e-9b7c-39f4fe463672.png)
+![image](https://user-images.githubusercontent.com/96986369/212468208-be602c7c-eff5-4912-af5d-d35e45a13a92.png)
+
 
 I used a modal for Grade Add
 ![image](https://user-images.githubusercontent.com/96986369/212467787-94a2d848-ab64-4b24-8bc7-13ce8c7bd4d3.png)
