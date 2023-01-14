@@ -10,25 +10,29 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+App for professors to manage Students:</br>
+-Typescript </br>
+-next.js</br>
+-tailwind with daisyui</br>
+-axios for fetch
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+First Page 
+![image](https://user-images.githubusercontent.com/96986369/212467524-473505d1-6ce4-45ab-a20b-f53510d66bc2.png)
+-You can search students by firstname and lastname</br>
+-You can sort students by firstname and lastname and reset</br>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Page To Add a new student 
+![image](https://user-images.githubusercontent.com/96986369/212468119-44af9775-7aa5-4f0f-8968-c8a429b261f4.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+Page to see Students Details like grades 
+![image](https://user-images.githubusercontent.com/96986369/212467337-0dde1b90-ea00-4b4e-9b7c-39f4fe463672.png)
 
-To learn more about Next.js, take a look at the following resources:
+I used a modal for Grade Add
+![image](https://user-images.githubusercontent.com/96986369/212467787-94a2d848-ab64-4b24-8bc7-13ce8c7bd4d3.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The same modal is use for update
+![image](https://user-images.githubusercontent.com/96986369/212467801-f516bfd9-235b-411c-9f15-f6610110826f.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+At the same time, teachers can delete a student or a student's grades
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
